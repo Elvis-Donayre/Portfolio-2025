@@ -81,7 +81,7 @@ def projects():
                 st.markdown(""" """)
                 
                 # Título del proyecto
-                st.title("InsightBot")
+                st.title("Sentiment Classification with Twitter")
                 st.markdown(""" """)
                 st.markdown(""" """)
 
