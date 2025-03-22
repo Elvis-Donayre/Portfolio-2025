@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos para texto justificado */
+.justify-text {
+    text-align: justify;
+}
+
+/* Estilos para encabezados centrados */
+.centered-header {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-top: 200px; /* Ajusta este valor según sea necesario */
+}
+
+/* Estilos para el logo en el sidebar */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Estilos para los enlaces sociales */
+.social-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.social-icon {
+    vertical-align: middle;
+    margin-right: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+.social-text {
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+/* Estilos para el botón de descarga */
+.stDownloadButton button {
+    background-color: #1E9E35 !important;
+    color: white !important;
+}
+
+/* Estilos para el contenedor del visor de PDF */
+.stContainer > div {
+    width: 55%;
+    margin: auto;
+}
+
+/* Estilos para contenedores de proyectos */
+.project-container {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.project-container:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para badges de tecnologías */
+.tech-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: #4285F4;
+}
