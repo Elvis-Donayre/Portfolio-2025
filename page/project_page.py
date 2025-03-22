@@ -33,7 +33,7 @@ def projects():
         with col1:
             with st.container(border=True):
                 # Displaying the title of the project
-                st.title("Insightful Data Explorer")
+                st.title("Score Prediction with Machine Learning ")
 
                 # Displaying the description
                 st.markdown("""
